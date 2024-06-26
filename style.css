@@ -1,0 +1,149 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    color: white;
+    padding: 0 100px;
+    position: fixed;
+    width: 100%;
+    border-top: solid crimson;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: ease .5s;
+}
+header a:hover{
+    color: #1abc9c;
+    font-size: 20px;
+}
+.carsour{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-image: url(./image/study.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+}
+.carsour div{
+    margin-left: 80px;
+    color: white;
+}
+.carsour span{
+    color: crimson;
+}
+.carsour h2{
+    color:#2C3E50;
+}
+.carsour a{
+    background-color: #1abc9c;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: ease 1s;
+
+}
+.carsour a:hover{
+    transform: scale(1.1);
+    background-color: #2C3E50;
+}
+.services h2{
+    text-align: center;
+    margin: 30px 0px;
+}
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 80px;
+}
+.services .card{
+    margin-right: 20px;
+   box-shadow: 3px 3px 6px 6px #ccc;
+   width: 16em;
+   margin-bottom: 40px;
+   text-align: center;
+}
+.card h3{
+    color: crimson;
+    font-weight: 1000;
+}
+.card p{
+    font-size: 17px;
+}
+.services .card > div{
+    font-size: 50px;
+    color: #2C3E50;
+}
+.protofilio{
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 30px 100px;
+}
+.protofilio h2{
+    color: white;
+    margin-bottom: 30px;
+    border-bottom: solid crimson;
+    display: inline-block;
+}
+.protofilio .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.protofilio .card{
+    border: solid;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 16em;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-height: 200px;
+}
+.protofilio button{
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 8px;
+    color: white;
+}
+.protofilio .card-dis{
+    margin: 0px 10px;
+    display: flex;
+    /* align-items: end; */
+    /* text-align: left; */
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.protofilio .card-dis p{
+    font-size: 12px;
+    line-height: 1.32;
+}
+.protofilio img{
+    /* width: 16em; */
+    /* height: 200px; */
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+}
+.protofilio .card-dis button{
+    flex-shrink: 0;
+    align-self: end;
+}
